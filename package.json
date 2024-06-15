@@ -1,25 +1,12 @@
 {
   "name": "cypress-ex1",
   "version": "1.0.0",
-  "private": true,
   "scripts": {
     "open": "npx cypress open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "cypress": "^12.3.0",
     "prettier": "^2.8.2"
-  },
-  "main": "cypress.config.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NitichaiSawangsai/cypress-ex1.git"
-  },
-  "bugs": {
-    "url": "https://github.com/NitichaiSawangsai/cypress-ex1/issues"
-  },
-  "homepage": "https://github.com/NitichaiSawangsai/cypress-ex1#readme"
+  }
 }
