@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "scripts": {
     "open": "npx cypress open",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "test-all": "npm run open & cypress run --record --key 04f960b8-c8e9-4b55-9126-8fc1a5417fd4"
+    "test": "node run-cypress.js"
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "cypress": "^12.3.0",
-    "prettier": "^2.8.2"
+    "prettier": "^2.8.2",
+    "dotenv": "^16.4.5"
   }
 }
