@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "open": "npx cypress open",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-test": "cypress run --record --key 04f960b8-c8e9-4b55-9126-8fc1a5417fd4"
   },
   "devDependencies": {
     "cypress": "^12.3.0",
