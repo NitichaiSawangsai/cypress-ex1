@@ -12,6 +12,10 @@ jobs:
       # making your code available for the workflow steps that follow.
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: npm install
+
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
       # https://github.com/cypress-io/github-action
