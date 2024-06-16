@@ -22,7 +22,11 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
-          command: cypress run --record --key ${{ secrets.CYPRESS_KEY }}
+          browser: chrome
+          record: true
+        env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_KEY }}
+          CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
       # after the test run completes
       # store videos and any screenshots
       # NOTE: screenshots will be generated only if E2E test failed
